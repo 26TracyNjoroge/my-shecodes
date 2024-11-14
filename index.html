@@ -10,95 +10,7 @@
       rel="stylesheet"
     />
     <title>Interior Studio</title>
-    <style>
-      h1 {
-        text-align: center;
-        color: #766064;
-        margin-top: 5px;
-        font-size: 32px;
-        font-family: "Berkshire Swash", cursive;
-      }
-
-      h2 {
-        text-align: center;
-        color: #766064;
-        font-size: 48px;
-        font-weight: 30px;
-        margin-bottom: 12px;
-        font-family: "Corinthia", cursive;
-      }
-
-      h3 {
-        text-align: center;
-        color: #766064;
-      }
-
-      h5 {
-        text-align: center;
-        opacity: 0.5;
-        margin-top: 30px;
-      }
-
-      .content {
-        max-width: 700px;
-        margin: 0 auto;
-        border: 1px solid #d9d9d9;
-        background: #d9d9d9;
-        padding: 10px 30px;
-        border-radius: 10px;
-      }
-
-      button {
-        display: block;
-        margin: 0 auto;
-        background: white;
-        color: #766064;
-        font-size: 14px;
-        padding: 12px 16px;
-        border: none;
-        border-radius: 30px;
-        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
-        transition: all 200ms ease;
-      }
-
-      button:hover {
-        color: white;
-        background: #766064;
-        opacity: 0.64;
-        cursor: pointer;
-      }
-
-      ul {
-        list-style: none;
-        text-align: center;
-        margin-top: 30px;
-        margin-bottom: 10px;
-        padding: 0;
-      }
-
-      li {
-        display: inline;
-        max-width: 400px;
-        margin: 0 auto;
-      }
-
-      p {
-        text-align: justify;
-        width: 90%;
-        margin: 0 auto 20px auto;
-        padding: 25px;
-        line-height: 26px;
-        color: #766064;
-        margin-top: 8px;
-        font-size: 16px;
-        font-style: Georgia, "Times New Roman", Times, serif;
-      }
-
-      .touch {
-        color: #766064;
-        font-size: 17px;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
     <div class="content">
@@ -144,21 +56,6 @@
       <button>Book a Free Consultaion</button>
       <h5>This page was built by Tracy Wangari</h5>
     </div>
-    <script>
-      function free() {
-        let name = prompt("What is your Name?");
-        let email = prompt("What is your email address?");
-
-        alert(
-          "Hello🖐 " +
-            name +
-            ", Thank you for being interested, We'll be in touch!"
-        );
-      }
-
-      let bookButton = document.querySelector("button");
-
-      bookButton.addEventListener("click", free);
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
